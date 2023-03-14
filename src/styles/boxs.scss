@@ -1,0 +1,63 @@
+@import './sizes.scss';
+.box-full-size {
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-start {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+@mixin w-size($width) {
+    width: $width;
+}
+
+.w-10 {
+    @include w-size($w-10)
+}
+
+.w-20 {
+    @include w-size($w-20)
+}
+
+.w-30 {
+    @include w-size($w-30)
+}
+
+.w-40 {
+    @include w-size($w-40)
+}
+
+.w-50 {
+    @include w-size($w-50)
+}
+
+.w-75 {
+    @include w-size($w-75)
+}
