@@ -1,0 +1,13 @@
+@import './colors.scss';
+@import './sizes.scss';
+@mixin nav-text($padding, $hover-color, $font-size) {
+    padding: $padding;
+    font-size: $font-size;
+    margin: 0px 10px 0px;
+    font-size: $header2;
+    font-style: $semi-bold;
+    &:hover {
+        color: $hover-color;
+        cursor: pointer;
+    }
+}
