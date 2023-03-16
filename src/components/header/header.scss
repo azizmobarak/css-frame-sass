@@ -1,8 +1,8 @@
-@import '../styles/colors.scss';
-@import '../styles/sizes.scss';
-@import '../styles/fonts.scss';
-@import '../styles/mixin.scss';
-@import '../styles/boxs.scss';
+@import '../../styles/colors.scss';
+@import '../../styles/sizes.scss';
+@import '../../styles/fonts.scss';
+@import '../../styles/mixin.scss';
+@import '../../styles/boxs.scss';
 .header {
     width: 100vw;
     height: 72px;
@@ -47,4 +47,8 @@
 
 .user-pic {
     @include borderRadius(80px);
+}
+
+.border-w {
+    border: 1px solid;
 }

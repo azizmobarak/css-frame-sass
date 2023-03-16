@@ -1,9 +1,9 @@
 import React from 'react';
 import './header.scss';
-import logo from '../assets/images/logo.png';
-import flagImage from '../assets/images/flag.png';
-import faceImage from '../assets/images/face-user.jpeg';
-import searchIcon from '../assets/svg/searchIcon.svg';
+import logo from '../../assets/images/logo.png';
+import flagImage from '../../assets/images/flag.png';
+import faceImage from '../..//assets/images/face-user.jpeg';
+import searchIcon from '../../assets/svg/searchIcon.svg';
 import notificationIcon from '../assets/svg/notification.svg';
 
 export default function Header() {
@@ -19,32 +19,34 @@ export default function Header() {
                 </div>
             </div>
             <div className='flex-center w-50'>
-                <ul className='nav-list w-50'>
+                <ul className='nav-list w-100'>
                     <li className="w-20">Dashboard</li>
                     <li className="w-20">Trainanigs</li>
                     <li className="w-20">Users</li>
                     <li className="w-20">
-                        <select className='more-selector w-100' name="More" id="more">
+                        <select className='more-selector w-20' name="More" id="more">
                             <option selected value="India">More</option>
                             <option value="Sri Lanka">option 2</option>
                             <option value="Australia">option 3</option>
                         </select>
                     </li>
-                </ul>
-                <ul className='nav-list w-50'>
-                    <li className='w-10'><img className='w-100' src={notificationIcon} alt='notification' /></li>
-                    <li className='w-10'><img className='w-100'src={flagImage} alt='flag' /></li>
-                    <li className='w-100'>
+                    {/* <li className="w-60">
                         <ul className='nav-list w-100'>
-                           <li>
-                                <img className='user-pic w-10' src={faceImage} alt='user' />
-                           </li>
-                           {/* <li>
+                            <li className='w-20'><img className='w-100' src={notificationIcon} alt='notification' /></li>
+                            <li className='w-20'><img className='w-100' src={flagImage} alt='flag' /></li>
+                            <li className='w-60'>
+                                <ul className='nav-list w-50 border-w'>
+                                    <li>
+                                        <img className='user-pic w-10' src={faceImage} alt='user' />
+                                    </li>
+                                    <li>
                                 <p>user name</p>
                                 <span>some discription</span>
-                           </li> */}
-                       </ul>
-                    </li>
+                           </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li> */}
                 </ul>
             </div>
         </div>

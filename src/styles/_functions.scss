@@ -1,0 +1,8 @@
+@function padding-mr($value) {
+    @if $value>50 {
+        @return 20px;
+    }
+    @else {
+        @return $value;
+    }
+}
