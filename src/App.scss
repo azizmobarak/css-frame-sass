@@ -1,6 +1,7 @@
 @import './styles/colors.scss';
 @import './styles/boxs.scss';
 @import './styles/sizes.scss';
+@import './styles/fonts.scss';
 .container {
     background-color: $background-color;
 }
@@ -18,4 +19,102 @@
 .h1 {
     font-size: $header1;
     color: $text-big-gray-color;
+}
+
+.bg-white {
+    background-color: $background-color;
+}
+
+.no-border {
+    border: 0px none;
+}
+
+.trsp-border {
+    border: 10px solid transparent;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+    margin: 10px
+}
+
+.grid-top-boxs {
+    width: 240px;
+    height: 311px;
+}
+
+.image-drag-area {
+    border: 3px dashed $text-light-gray;
+    border-radius: 10px;
+}
+
+.image-small-gray-text {
+    color: $text-bold-gray;
+    font-size: $medium-text;
+}
+
+.color-w {
+    color: white;
+}
+
+.color-lg {
+    color: $text-light-gray;
+}
+
+.bg-green {
+    background-color: $green;
+}
+
+.size-m {
+    font-size: $medium-text;
+    font-style: $semi-bold;
+}
+
+.size-s {
+    font-size: $small-text;
+    font-style: $semi-bold;
+}
+
+.size-b {
+    font-size: $header1;
+    font-style: $semi-bold;
+}
+
+.m-5 {
+    margin: 5px 5px 0;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.t0 {
+    top: 0;
+}
+
+.text-align-start {
+    text-align: left;
+}
+
+.border-raduis-circle {
+    border-radius: 80%;
+    height: 15px;
+    width: 20px;
+}
+
+.divider {
+    border: 1px solid $text-big-gray-color;
+    opacity: .2;
+}
+
+.h2-gray-light {
+    font-size: $header2;
+    color: $text-bold-gray;
+    opacity: .7;
+    font-style: normal
 }

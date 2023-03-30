@@ -9,6 +9,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
     
     .flex-start {
@@ -37,6 +38,7 @@
     
     .align-items-center {
         align-items: center;
+        text-align: center;
     }
     
     .justify-content-center {
@@ -79,6 +81,14 @@
         @include w-size($w-75)
     }
     
+    .w-80 {
+        @include w-size($w-80)
+    }
+    
+    .w-85 {
+        @include w-size($w-85)
+    }
+    
     .w-100 {
         @include w-size($w-100)
     }
@@ -103,6 +113,10 @@
         @include h-size($w-50)
     }
     
+    .h-60 {
+        @include h-size($w-60)
+    }
+    
     .h-75 {
         @include h-size($w-75)
     }
@@ -114,4 +128,12 @@
     .mr-10 {
         margin-right: padding-mr(10);
         margin-left: 100px;
+    }
+    
+    .ml-15 {
+        margin-left: 15px;
+    }
+    
+    .p-5 {
+        padding: 5px;
     }

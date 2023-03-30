@@ -1,0 +1,27 @@
+@import '../../styles/colors.scss';
+@import '../../styles/fonts.scss';
+@import '../../styles/sizes.scss';
+@import '../../styles/boxs.scss';
+.drp-title {
+    color: $text-bold-gray;
+    font-size: $medium-text;
+}
+
+.drp-text-button {
+    color: $text-blue;
+    font-size: $medium-text;
+}
+
+.drp-select {
+    outline: none;
+    border: 1px solid $text-light-gray;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right;
+    background-position: calc(100% - 0.75rem) center !important;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    padding-right: 2rem !important;
+}

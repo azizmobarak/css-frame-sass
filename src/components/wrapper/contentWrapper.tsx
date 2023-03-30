@@ -6,7 +6,7 @@ type Props = {
 
 export default function ContentWrapper(props: Props) {
     return (
-        <div className='flex-row align-items-center h-75 w-100'>
+        <div className='flex-row align-items-center h-75 w-60'>
             {props.children}
         </div>
     )
